@@ -20,8 +20,8 @@ class ListControls extends React.Component {
     render() {
         return(
             <form onSubmit={this.handleSubmit}>
-                <input type="text" name="text" onChange={this.onChange} />
-                <input type="submit" value="Add Item" />
+                <input type="text" name="text" data-testid="new_item_text" onChange={this.onChange} />
+                <input type="submit" value="Add Item" data-testid="item_submit" />
             </form>
         )
     }
