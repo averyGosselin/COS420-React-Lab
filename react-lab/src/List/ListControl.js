@@ -15,8 +15,8 @@ function ListControl(props) {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" name="text" value={text} onChange={onChange} />
-            <input type="submit" value="Add item" />
+            <input type="text" name="text" value={text} onChange={onChange} data-testid="new_item_text" />
+            <input type="submit" value="Add item" data-testid="item_submit" />
         </form>
     );
 }
