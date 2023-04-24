@@ -11,7 +11,7 @@ function List(props) {
         {
             id: 2,
             text: "List item 2"
-        }
+        },
     ]);
 
 
